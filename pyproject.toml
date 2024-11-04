@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tg-iris-userbot"
+version = "0.1.0"
+description = ""
+authors = ["Abramov Evgeniy <61637662+iriswolf@users.noreply.github.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyrogram = "^2.0.106"
+tgcrypto = "^1.2.5"
+loguru = "^0.7.2"
+pydantic-settings = "^2.6.1"
+apscheduler = "^3.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
